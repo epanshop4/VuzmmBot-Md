@@ -5,7 +5,7 @@ exports.wait = () => {
     return `⏳ Mohon tunggu sebentar~`
 }
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ Udah tuh. Apa lagi yg kau mau hah?~`
 }
 
 exports.err = () => {
@@ -22,7 +22,7 @@ exports.replyImg = (prefix, command) => {
 }
 
 exports.wrongFormat = (prefix) => {
-    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
+    return `Format salah baca yg bener biar ga salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
 }
 
 exports.emptyMess = () => {
